@@ -252,11 +252,11 @@ def finish_combined_loading(chat_id, fetching_id, reveal_id,
         pass
 # Configuration (Token & Owner ID)
 # ==========================================
-TOKEN = "8769195746:AAHDc94PpsqwLwXYlS56BlECW77nPGgADmk"
+TOKEN = "8993290288:AAHOzuz0VzI_lhOf_sn5dX99q24KQFz1q_M"
 BASE_URL = f"https://api.telegram.org/bot{TOKEN}"
 FILE_URL = f"https://api.telegram.org/file/bot{TOKEN}/"
-OWNER_ID = 8857400259
-ALL_ADMIN_IDS = [8857400259, 8857400259]
+OWNER_ID = 8338141509
+ALL_ADMIN_IDS = [8857400259, 8338141509]
 BOT_USERNAME = "GX_SMS_BOT"
 BOT_DATA_NAMESPACE = hashlib.sha256((TOKEN.partition(":")[0] or "unconfigured").encode("utf-8")).hexdigest()[:16]
 # The bot ID (the part before ":") stays stable when Telegram rotates a token,
